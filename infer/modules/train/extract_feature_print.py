@@ -1,3 +1,10 @@
+import fairseq.modules
+import torch.nn.functional as F
+import torch
+import soundfile as sf
+import numpy as np
+import fairseq
+from fairseq.checkpoint_utils import load_model_ensemble_and_task
 import os
 import sys
 import traceback
@@ -18,11 +25,6 @@ else:
     os.environ["CUDA_VISIBLE_DEVICES"] = str(i_gpu)
     version = sys.argv[6]
     is_half = sys.argv[7].lower() == "true"
-import fairseq
-import numpy as np
-import soundfile as sf
-import torch
-import torch.nn.functional as F
 
 if "privateuseone" not in device:
     device = "cpu"
@@ -56,9 +58,8 @@ model_path = "assets/hubert/hubert_base.pt"
 
 printt("exp_dir: " + exp_dir)
 wavPath = "%s/1_16k_wavs" % exp_dir
-outPath = (
-    "%s/3_feature256" % exp_dir if version == "v1" else "%s/3_feature768" % exp_dir
-)
+outPath = ("%s/3_feature256" % exp_dir if version ==
+           "v1" else "%s/3_feature768" % exp_dir)
 os.makedirs(outPath, exist_ok=True)
 
 
@@ -86,10 +87,8 @@ if os.access(model_path, os.F_OK) == False:
         % model_path
     )
     exit(0)
-models, saved_cfg, task = fairseq.checkpoint_utils.load_model_ensemble_and_task(
-    [model_path],
-    suffix="",
-)
+models, saved_cfg, task = load_model_ensemble_and_task(
+    [model_path], suffix="", )
 model = models[0]
 model = model.to(device)
 printt("move model to %s" % device)
@@ -127,8 +126,8 @@ else:
                 with torch.no_grad():
                     logits = model.extract_features(**inputs)
                     feats = (
-                        model.final_proj(logits[0]) if version == "v1" else logits[0]
-                    )
+                        model.final_proj(logits[0])
+                        if version == "v1" else logits[0])
 
                 feats = feats.squeeze(0).float().cpu().numpy()
                 if np.isnan(feats).sum() == 0:
@@ -136,7 +135,8 @@ else:
                 else:
                     printt("%s-contains nan" % file)
                 if idx % n == 0:
-                    printt("now-%s,all-%s,%s,%s" % (len(todo), idx, file, feats.shape))
+                    printt("now-%s,all-%s,%s,%s" %
+                           (len(todo), idx, file, feats.shape))
         except:
             printt(traceback.format_exc())
     printt("all-feature-done")

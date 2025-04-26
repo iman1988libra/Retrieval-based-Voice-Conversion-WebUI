@@ -1,0 +1,1204 @@
+2025-04-26 19:29:35 | INFO | configs.config | Found GPU NVIDIA RTX A1000 Laptop GPU
+2025-04-26 19:29:35 | INFO | configs.config | Half-precision floating-point: True, device: cuda:0
+2025-04-26 19:29:36 | INFO | __main__ | Use Language: en_US
+/usr/bin/xdg-open: 882: x-www-browser: not found
+/usr/bin/xdg-open: 882: firefox: not found
+/usr/bin/xdg-open: 882: iceweasel: not found
+/usr/bin/xdg-open: 882: seamonkey: not found
+/usr/bin/xdg-open: 882: mozilla: not found
+/usr/bin/xdg-open: 882: epiphany: not found
+/usr/bin/xdg-open: 882: konqueror: not found
+/usr/bin/xdg-open: 882: chromium: not found
+/usr/bin/xdg-open: 882: chromium-browser: not found
+/usr/bin/xdg-open: 882: google-chrome: not found
+
+2025-04-26 19:29:48 | INFO | __main__ | Execute: "/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/bin/python" infer/modules/train/preprocess.py "/home/meowmeow/s-projects/low_pitch" 40000 14 "/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test" False 3.0
+/home/meowmeow/s-projects/low_pitch 40000 14 /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test False 3.0
+start preprocess
+/home/meowmeow/s-projects/low_pitch/chunk_1026.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1142.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1204.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1269.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1321.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_140.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1474.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1505.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1527.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1555.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_172.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_219.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_277.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_340.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_369.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_418.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_482.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_502.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_539.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_571.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_610.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_648.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_670.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_713.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_741.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_8.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_852.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_912.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1034.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1148.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1206.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1276.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1327.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1401.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1475.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1507.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_153.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1557.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_175.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_224.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_282.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_346.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_370.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_42.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_483.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_503.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_542.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_578.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_623.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_649.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_676.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_715.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_742.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_802.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_856.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_916.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1059.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1151.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1225.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1284.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1337.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1425.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1477.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1510.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1534.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_157.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_180.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_236.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_29.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_350.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_378.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_421.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_486.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_513.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_544.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_581.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_626.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_654.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_682.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_72.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_750.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_808.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_858.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_920.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1070.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1158.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1231.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1291.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1354.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1440.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1487.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1514.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1538.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1612.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_186.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_246.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_299.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_354.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_40.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_44.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_490.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_520.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_547.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_595.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_631.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_658.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_696.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_728.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_759.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_829.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_865.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_949.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1025.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1133.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1203.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1257.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1317.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1391.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1473.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1501.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1526.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1553.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_171.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_217.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_271.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_34.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_367.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_416.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_481.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_501.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_538.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_570.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_608.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_647.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_669.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_71.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_740.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_786.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_849.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_909.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1016.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1125.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_12.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1256.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1307.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1385.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_147.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1498.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1525.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1552.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_169.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_205.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_270.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_32.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_365.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_415.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_47.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_496.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_537.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_57.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_607.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_643.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_668.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_708.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_739.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_780.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_848.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_905.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_10.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1081.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1164.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1247.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1293.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_136.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_145.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1492.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1518.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1543.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1616.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_197.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_250.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_307.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_357.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_407.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_447.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_492.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_53.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_550.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_60.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_636.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_662.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_702.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_731.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_773.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_842.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_893.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_980.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1062.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1154.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1226.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1286.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1344.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_143.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_148.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1511.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1535.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_16.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_181.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_237.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_296.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_351.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_38.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_424.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_487.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_517.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_545.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_59.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_627.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_655.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_694.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_720.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_752.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_813.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_860.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_932.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1063.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1156.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1228.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1290.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_135.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_144.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1482.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1513.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1536.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_161.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_182.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_238.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_297.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_353.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_399.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_43.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_489.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_52.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_546.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_591.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_629.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_657.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_695.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_724.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_754.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_816.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_862.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_940.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1011.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1124.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1192.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1255.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1305.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1382.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1469.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1495.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1521.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1550.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_167.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_203.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_27.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_316.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_364.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_414.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_465.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_495.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_536.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_560.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_606.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_641.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_667.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_707.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_738.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_777.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_847.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_902.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_999.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1000.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1085.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1166.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1248.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1296.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_137.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1456.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1493.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1519.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1545.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1627.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_198.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_255.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_31.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_360.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_412.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_45.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_493.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_532.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_553.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_602.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_637.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_664.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_704.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_732.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_775.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_843.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_898.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_981.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1050.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1149.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1214.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1280.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1335.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_141.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1476.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_151.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1530.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1569.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_177.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_23.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_283.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_348.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_376.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_420.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_484.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_512.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_543.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_579.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_624.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_65.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_677.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_717.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_75.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_805.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_857.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_917.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1008.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1101.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1173.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1252.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1299.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1370.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_146.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1494.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1520.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1546.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1668.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_200.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_269.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_311.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_361.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_413.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_464.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_494.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_535.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_554.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_604.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_64.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_666.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_706.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_737.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_776.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_845.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_900.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_995.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1079.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1161.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1233.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1292.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1357.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1449.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_149.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1517.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1539.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1613.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_193.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_247.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_306.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_356.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_406.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_446.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_491.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_521.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_549.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_596.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_632.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_661.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_701.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_730.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_771.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_832.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_889.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_973.wav	-> Success
+end preprocess
+2025-04-26 19:29:58 | INFO | __main__ | start preprocess
+/home/meowmeow/s-projects/low_pitch/chunk_1050.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1070.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1063.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1025.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1034.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1026.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1000.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1016.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1059.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_10.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1011.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1062.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1008.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1158.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1149.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1133.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1125.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1079.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1085.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1154.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1148.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1081.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1156.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1142.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1101.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1151.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1124.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1214.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1164.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1204.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_12.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1231.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1206.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1226.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1228.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1203.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1192.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1161.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1173.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1225.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1280.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1269.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1166.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1276.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1257.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1233.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1291.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1286.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1284.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1290.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1252.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1247.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1335.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1256.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1248.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1321.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1327.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1354.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1317.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_135.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1255.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1337.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1292.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1293.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1344.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1299.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1307.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1401.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1440.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_140.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1296.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_141.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1425.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1391.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_144.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1305.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1357.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_143.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1370.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_136.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1385.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1487.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1475.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1477.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_137.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1476.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1382.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1473.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1474.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_145.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1449.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_148.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_147.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1482.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1507.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1510.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1456.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_151.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1469.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1511.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1505.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_146.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_149.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1513.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_153.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1514.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1492.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1501.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1534.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1498.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1495.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1527.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1530.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1535.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1538.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1493.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1517.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1526.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1494.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1536.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1518.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1557.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1521.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1525.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1555.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_157.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1612.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1519.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1539.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1520.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1543.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_175.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_16.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_161.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_172.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1569.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1550.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1552.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1553.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1545.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_186.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1616.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_224.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1613.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1546.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_180.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_169.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_219.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_181.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_171.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_177.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_182.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_167.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1627.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_197.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_236.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_282.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_193.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_1668.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_277.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_205.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_217.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_246.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_237.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_238.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_23.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_203.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_29.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_250.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_200.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_198.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_270.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_340.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_271.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_283.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_297.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_346.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_296.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_299.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_247.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_27.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_307.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_350.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_34.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_255.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_369.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_353.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_269.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_370.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_348.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_32.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_351.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_316.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_354.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_357.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_378.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_367.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_31.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_306.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_399.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_311.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_418.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_40.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_42.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_365.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_376.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_364.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_407.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_421.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_416.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_482.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_356.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_43.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_360.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_38.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_361.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_483.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_420.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_414.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_447.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_415.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_486.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_44.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_489.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_502.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_413.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_412.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_424.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_503.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_484.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_406.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_47.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_465.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_481.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_513.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_464.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_45.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_487.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_539.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_490.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_542.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_512.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_492.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_495.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_446.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_496.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_544.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_501.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_578.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_520.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_52.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_571.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_493.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_517.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_53.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_494.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_581.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_491.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_536.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_538.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_537.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_623.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_547.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_610.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_543.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_532.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_546.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_550.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_545.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_535.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_626.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_521.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_57.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_570.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_560.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_648.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_553.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_595.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_591.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_649.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_579.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_60.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_59.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_608.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_607.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_654.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_549.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_670.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_631.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_602.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_629.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_554.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_647.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_636.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_676.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_624.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_627.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_606.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_643.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_682.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_713.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_637.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_658.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_596.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_604.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_669.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_715.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_65.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_662.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_655.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_641.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_657.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_696.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_741.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_632.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_668.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_677.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_72.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_64.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_694.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_742.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_702.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_664.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_71.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_667.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_695.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_8.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_728.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_708.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_717.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_661.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_802.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_750.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_666.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_720.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_740.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_704.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_731.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_707.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_852.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_724.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_759.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_739.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_706.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_808.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_856.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_732.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_701.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_773.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_752.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_786.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_738.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_912.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_75.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_754.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_829.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_780.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_858.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_916.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_775.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_813.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_730.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_842.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_777.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_737.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_849.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_865.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_816.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_848.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_920.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_860.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_893.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_776.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_843.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_805.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_847.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_771.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_949.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_862.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_909.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_905.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_980.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_932.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_898.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_845.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_857.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_902.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_832.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_940.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_900.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_999.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_981.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_889.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_917.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_995.wav	-> Success
+/home/meowmeow/s-projects/low_pitch/chunk_973.wav	-> Success
+end preprocess
+
+2025-04-26 19:30:11 | INFO | __main__ | Execute: "/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/bin/python" infer/modules/train/extract/extract_f0_print.py "/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test" 14 harvest
+infer/modules/train/extract/extract_f0_print.py /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test 14 harvest
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/0_0.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/16_1.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/23_2.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/310_5.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/384_4.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/99_2.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/0_2.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/16_3.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_0.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/311_0.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/385_0.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/99_4.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_0.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_0.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_1.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/311_2.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/385_2.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/9_0.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_1.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_1.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_3.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_0.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/386_0.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/9_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_2.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_3.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/386_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_3.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_2.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_0.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_5.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_1.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_3.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_0.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_1.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_0.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_5.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_2.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_3.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_1.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_4.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/242_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_4.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_0.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_2.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/172_1.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/242_2.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/314_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_1.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_4.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/172_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/314_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_3.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_0.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/173_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_1.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_0.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/389_0.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_2.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/173_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_3.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/389_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_4.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/174_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/244_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/38_0.wav
+2025-04-26 19:30:12 | INFO | __main__ | infer/modules/train/extract/extract_f0_print.py /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test 14 harvest
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/0_0.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/16_1.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/23_2.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/310_5.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/384_4.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/99_2.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/0_2.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/16_3.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_0.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/311_0.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/385_0.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/99_4.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_0.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_0.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_1.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/311_2.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/385_2.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/9_0.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_1.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_1.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_3.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_0.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/386_0.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/9_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_2.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_3.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/386_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_3.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_2.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_0.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_5.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_1.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_3.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_0.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_1.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_0.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_5.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_2.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_3.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_1.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_4.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/242_0.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/172_1.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_4.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/242_2.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/314_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_1.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_4.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/172_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/314_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_3.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_0.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/173_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_1.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_0.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/389_0.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_2.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/173_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_3.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/389_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_4.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/174_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/244_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/38_0.wav
+
+2025-04-26 19:30:12 | INFO | __main__ | Execute: "/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/bin/python" infer/modules/train/extract_feature_print.py cuda:0 1 0 0 "/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test" v2 True
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/lib/python3.10/site-packages/fairseq/checkpoint_utils.py:315: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(f, map_location=torch.device("cpu"))
+2025-04-26 19:30:15 | INFO | fairseq.tasks.hubert_pretraining | current directory is /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI
+2025-04-26 19:30:15 | INFO | fairseq.tasks.hubert_pretraining | HubertPretrainingTask Config {'_name': 'hubert_pretraining', 'data': 'metadata', 'fine_tuning': False, 'labels': ['km'], 'label_dir': 'label', 'label_rate': 50.0, 'sample_rate': 16000, 'normalize': False, 'enable_padding': False, 'max_keep_size': None, 'max_sample_size': 250000, 'min_sample_size': 32000, 'single_target': False, 'random_crop': True, 'pad_audio': False}
+2025-04-26 19:30:15 | INFO | fairseq.models.hubert.hubert | HubertModel Config: {'_name': 'hubert', 'label_rate': 50.0, 'extractor_mode': default, 'encoder_layers': 12, 'encoder_embed_dim': 768, 'encoder_ffn_embed_dim': 3072, 'encoder_attention_heads': 12, 'activation_fn': gelu, 'layer_type': transformer, 'dropout': 0.1, 'attention_dropout': 0.1, 'activation_dropout': 0.0, 'encoder_layerdrop': 0.05, 'dropout_input': 0.1, 'dropout_features': 0.1, 'final_dim': 256, 'untie_final_proj': True, 'layer_norm_first': False, 'conv_feature_layers': '[(512,10,5)] + [(512,3,2)] * 4 + [(512,2,2)] * 2', 'conv_bias': False, 'logit_temp': 0.1, 'target_glu': False, 'feature_grad_mult': 0.1, 'mask_length': 10, 'mask_prob': 0.8, 'mask_selection': static, 'mask_other': 0.0, 'no_mask_overlap': False, 'mask_min_space': 1, 'mask_channel_length': 10, 'mask_channel_prob': 0.0, 'mask_channel_selection': static, 'mask_channel_other': 0.0, 'no_mask_channel_overlap': False, 'mask_channel_min_space': 1, 'conv_pos': 128, 'conv_pos_groups': 16, 'latent_temp': [2.0, 0.5, 0.999995], 'skip_masked': False, 'skip_nomask': False, 'checkpoint_activations': False, 'required_seq_len_multiple': 2, 'depthwise_conv_kernel_size': 31, 'attn_type': '', 'pos_enc_type': 'abs', 'fp16': False}
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/lib/python3.10/site-packages/torch/nn/utils/weight_norm.py:134: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+infer/modules/train/extract_feature_print.py cuda:0 1 0 0 /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test v2 True
+exp_dir: /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test
+load model(s) from assets/hubert/hubert_base.pt
+move model to cuda
+all-feature-1124
+all-feature-done
+2025-04-26 19:30:18 | INFO | __main__ | infer/modules/train/extract/extract_f0_print.py /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test 14 harvest
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/0_0.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/16_1.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/23_2.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/310_5.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/384_4.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/99_2.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/0_2.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/16_3.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_0.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/311_0.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/385_0.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/99_4.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_0.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_0.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_1.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/311_2.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/385_2.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/9_0.wav
+todo-f0-81
+f0ing,now-0,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_1.wav
+f0ing,now-16,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_1.wav
+f0ing,now-32,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/240_3.wav
+f0ing,now-48,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_0.wav
+f0ing,now-64,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/386_0.wav
+f0ing,now-80,all-81,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/9_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_2.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/170_3.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/386_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_3.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_2.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/312_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_0.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/100_5.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_1.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_3.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_0.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_1.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_0.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/241_5.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_2.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/387_3.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_1.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/171_4.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/242_0.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/172_1.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/313_4.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/242_2.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/314_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_1.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/101_4.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/172_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/314_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/388_3.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_0.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/173_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_1.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_0.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/389_0.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_2.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/173_2.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/243_3.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_1.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/389_2.wav
+todo-f0-80
+f0ing,now-0,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/102_4.wav
+f0ing,now-16,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/174_0.wav
+f0ing,now-32,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/244_0.wav
+f0ing,now-48,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/315_3.wav
+f0ing,now-64,all-80,-/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test/1_16k_wavs/38_0.wav
+infer/modules/train/extract_feature_print.py cuda:0 1 0 0 /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test v2 True
+exp_dir: /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/logs/mi-test
+load model(s) from assets/hubert/hubert_base.pt
+move model to cuda
+all-feature-1124
+all-feature-done
+
+2025-04-26 19:30:25 | INFO | __main__ | Use gpus: 0-1
+2025-04-26 19:30:25 | INFO | __main__ | Execute: "/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/bin/python" infer/modules/train/train.py -e "mi-test" -sr 40k -f0 1 -bs 2 -g 0-1 -te 20 -se 5 -pg assets/pretrained_v2/f0G40k.pth -pd assets/pretrained_v2/f0D40k.pth -l 0 -c 0 -sw 0 -v v2
+INFO:mi-test:{'data': {'filter_length': 2048, 'hop_length': 400, 'max_wav_value': 32768.0, 'mel_fmax': None, 'mel_fmin': 0.0, 'n_mel_channels': 125, 'sampling_rate': 40000, 'win_length': 2048, 'training_files': './logs/mi-test/filelist.txt'}, 'model': {'filter_channels': 768, 'gin_channels': 256, 'hidden_channels': 192, 'inter_channels': 192, 'kernel_size': 3, 'n_heads': 2, 'n_layers': 6, 'p_dropout': 0, 'resblock': '1', 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'resblock_kernel_sizes': [3, 7, 11], 'spk_embed_dim': 109, 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 4, 4], 'upsample_rates': [10, 10, 2, 2], 'use_spectral_norm': False}, 'train': {'batch_size': 2, 'betas': [0.8, 0.99], 'c_kl': 1.0, 'c_mel': 45, 'epochs': 20000, 'eps': 1e-09, 'fp16_run': True, 'init_lr_ratio': 1, 'learning_rate': 0.0001, 'log_interval': 200, 'lr_decay': 0.999875, 'seed': 1234, 'segment_size': 12800, 'warmup_epochs': 0}, 'model_dir': './logs/mi-test', 'experiment_dir': './logs/mi-test', 'save_every_epoch': 5, 'name': 'mi-test', 'total_epoch': 20, 'pretrainG': 'assets/pretrained_v2/f0G40k.pth', 'pretrainD': 'assets/pretrained_v2/f0D40k.pth', 'version': 'v2', 'gpus': '0-1', 'sample_rate': '40k', 'if_f0': 1, 'if_latest': 0, 'save_every_weights': '0', 'if_cache_data_in_gpu': 0}
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/lib/python3.10/site-packages/torch/nn/utils/weight_norm.py:134: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+DEBUG:infer.lib.infer_pack.models:gin_channels: 256, self.spk_embed_dim: 109
+INFO:mi-test:loaded pretrained assets/pretrained_v2/f0G40k.pth
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:231: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(hps.pretrainG, map_location="cpu")["model"]
+INFO:mi-test:<All keys matched successfully>
+INFO:mi-test:loaded pretrained assets/pretrained_v2/f0D40k.pth
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:246: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(hps.pretrainD, map_location="cpu")["model"]
+INFO:mi-test:<All keys matched successfully>
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:263: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler(enabled=hps.train.fp16_run)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/lib/train/data_utils.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  spec = torch.load(spec_filename)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/lib/train/data_utils.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  spec = torch.load(spec_filename)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/lib/train/data_utils.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  spec = torch.load(spec_filename)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/lib/train/data_utils.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  spec = torch.load(spec_filename)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/lib/train/data_utils.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  spec = torch.load(spec_filename)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/lib/train/data_utils.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  spec = torch.load(spec_filename)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/lib/train/data_utils.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  spec = torch.load(spec_filename)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/lib/train/data_utils.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  spec = torch.load(spec_filename)
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:429: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=hps.train.fp16_run):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:457: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=False):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:476: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=False):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:486: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=hps.train.fp16_run):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:489: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=False):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/lib/python3.10/site-packages/torch/autograd/graph.py:769: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [64, 1, 4], strides() = [4, 1, 1]
+bucket_view.sizes() = [64, 1, 4], strides() = [4, 4, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:327.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+INFO:mi-test:Train Epoch: 1 [0%]
+INFO:mi-test:[0, 0.0001]
+INFO:mi-test:loss_disc=3.554, loss_gen=3.061, loss_fm=12.273,loss_mel=27.949, loss_kl=9.000
+DEBUG:matplotlib:matplotlib data path: /home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/.venv/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:matplotlib:CONFIGDIR=/home/meowmeow/.config/matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is linux
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:429: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=hps.train.fp16_run):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:457: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=False):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:476: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=False):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:486: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=hps.train.fp16_run):
+/home/meowmeow/s-projects/Retrieval-based-Voice-Conversion-WebUI/infer/modules/train/train.py:489: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=False):
+INFO:mi-test:Train Epoch: 1 [36%]
+INFO:mi-test:[200, 0.0001]
+INFO:mi-test:loss_disc=4.327, loss_gen=3.119, loss_fm=9.851,loss_mel=22.978, loss_kl=1.848
+INFO:mi-test:Train Epoch: 1 [72%]
+INFO:mi-test:[400, 0.0001]
+INFO:mi-test:loss_disc=3.708, loss_gen=3.163, loss_fm=13.510,loss_mel=22.611, loss_kl=2.232
+INFO:mi-test:====> Epoch: 1 [2025-04-26 19:39:16] | (0:08:38.170943)
+INFO:mi-test:Train Epoch: 2 [9%]
+INFO:mi-test:[600, 9.99875e-05]
+INFO:mi-test:loss_disc=4.244, loss_gen=3.158, loss_fm=11.628,loss_mel=22.175, loss_kl=1.931
+INFO:mi-test:Train Epoch: 2 [45%]
+INFO:mi-test:[800, 9.99875e-05]
+INFO:mi-test:loss_disc=4.045, loss_gen=3.473, loss_fm=10.009,loss_mel=19.978, loss_kl=1.516
+INFO:mi-test:Train Epoch: 2 [81%]
+INFO:mi-test:[1000, 9.99875e-05]
+INFO:mi-test:loss_disc=3.877, loss_gen=3.198, loss_fm=8.870,loss_mel=20.997, loss_kl=1.790
+INFO:mi-test:====> Epoch: 2 [2025-04-26 19:48:06] | (0:08:50.064337)
+INFO:mi-test:Train Epoch: 3 [17%]
+INFO:mi-test:[1200, 9.99750015625e-05]
+INFO:mi-test:loss_disc=4.262, loss_gen=2.638, loss_fm=12.192,loss_mel=19.501, loss_kl=1.868
+INFO:mi-test:Train Epoch: 3 [54%]
+INFO:mi-test:[1400, 9.99750015625e-05]
+INFO:mi-test:loss_disc=4.224, loss_gen=2.943, loss_fm=9.630,loss_mel=22.059, loss_kl=2.016
+INFO:mi-test:Train Epoch: 3 [90%]
+INFO:mi-test:[1600, 9.99750015625e-05]
+INFO:mi-test:loss_disc=3.762, loss_gen=3.312, loss_fm=11.389,loss_mel=21.254, loss_kl=2.662
+INFO:mi-test:====> Epoch: 3 [2025-04-26 19:56:37] | (0:08:31.273131)
+INFO:mi-test:Train Epoch: 4 [26%]
+INFO:mi-test:[1800, 9.996250468730469e-05]
+INFO:mi-test:loss_disc=3.981, loss_gen=3.168, loss_fm=12.315,loss_mel=20.158, loss_kl=1.990
+INFO:mi-test:Train Epoch: 4 [62%]
+INFO:mi-test:[2000, 9.996250468730469e-05]
+INFO:mi-test:loss_disc=4.043, loss_gen=3.186, loss_fm=10.847,loss_mel=22.083, loss_kl=1.651
+INFO:mi-test:Train Epoch: 4 [99%]
+INFO:mi-test:[2200, 9.996250468730469e-05]
+INFO:mi-test:loss_disc=4.039, loss_gen=3.596, loss_fm=10.175,loss_mel=19.702, loss_kl=2.234
